@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anonl0g1c.github.io/rdb-site/sitemap.xml
