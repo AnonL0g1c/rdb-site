@@ -7,20 +7,13 @@
   <meta name="description" content="Reactivamos pacientes inactivos y leads fríos con WhatsApp/Email/SMS + CRM. 15–30 citas en 21 días o seguimos gratis hasta lograrlo." />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="canonical" href="https://anonl0g1c.github.io/rdb-site/" />
-  <!-- Analytics (opcional): descomenta cuando tengas tu dominio
-  <script defer data-domain="anonl0g1c.github.io" src="https://plausible.io/js/script.js"></script>
-  -->
   <meta property="og:title" content="RDB — 15–30 citas en 21 días (sin Ads)" />
   <meta property="og:description" content="Campañas multicanal sobre tu base + CRM. Garantía: seguimos gratis hasta lograrlo." />
-  <meta property="og:image" content="https://anonl0g1c.github.io/rdb-site/assets/og.svg" />
+  <meta property="og:image" content="assets/og.svg" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_ES" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="preconnect" href="https://plausible.io" />
   <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "Organization", "name": "RDB — Reactivación de Leads", "url": "https://anonl0g1c.github.io/rdb-site/", "logo": "https://anonl0g1c.github.io/rdb-site/assets/logo.svg", "sameAs": []}
-  </script>
 </head>
 <body>
   <header class="header">
@@ -38,13 +31,20 @@
           <h1>Recupera pacientes inactivos y llena tu agenda en 21 días</h1>
           <p class="sub">Campañas por <b>WhatsApp, Email y SMS</b> sobre tu base + CRM. Promesa: <b>15–30 citas</b> o seguimos gratis hasta lograrlo.</p>
           <div class="cta-row">
-            <a class="btn btn-primary" data-cta="whatsapp" id="reserva" href="https://wa.me/33610130339?text=Hola%2C%20quiero%20reservar%20la%20auditor%C3%ADa%20de%2015%20min%20para%20Reactivaci%C3%B3n%20RDB.%20Mi%20cl%C3%ADnica%20es%20_____%20y%20ciudad%20_____." target="_blank" rel="noopener">Reservar por WhatsApp</a>
-            <a class="btn btn-ghost" data-cta="stripe" href="#" target="_blank" rel="noopener">Pagar Sprint 21 días · 997€</a>
+            <!-- CTA sin teléfono: formulario -->
+            <a class="btn btn-primary" data-cta="form" id="reserva"
+               href="https://tally.so/r/PLACEHOLDER" target="_blank" rel="noopener">
+              Reservar auditoría (formulario)
+            </a>
+            <!-- Cuando tengas Stripe, pega aquí tu Payment Link -->
+            <a class="btn btn-ghost" data-cta="stripe" href="#" target="_blank" rel="noopener">
+              Pagar Sprint 21 días · 997€
+            </a>
           </div>
           <ul class="checklist">
             <li>Setup en 72h · secuencias multicanal listas</li>
             <li>Recordatorios y confirmaciones automatizadas</li>
-            <li>RGPD: solo contactos con consentimiento y opt‑out claro</li>
+            <li>RGPD: solo contactos con consentimiento y opt-out claro</li>
           </ul>
           <p class="notice">*Si no tienes base de datos, activamos referidos/reseñas para generar primeras citas.</p>
         </div>
@@ -79,9 +79,12 @@
         <p>Si no logramos entre 15 y 30 citas en 21 días, seguimos trabajando gratis hasta conseguirlo.</p>
       </div>
       <div class="card">
-        <h3>Reserva tu auditoría por WhatsApp (15 min)</h3>
+        <h3>Reserva tu auditoría (formulario)</h3>
         <p>Te mostramos un plan con números y fechas. Sin compromiso.</p>
-        <a class="btn btn-primary" data-cta="whatsapp" href="https://wa.me/33610130339?text=Hola%2C%20quiero%20reservar%20la%20auditor%C3%ADa%20de%2015%20min%20para%20Reactivaci%C3%B3n%20RDB.%20Mi%20cl%C3%ADnica%20es%20_____%20y%20ciudad%20_____." target="_blank" rel="noopener">Abrir WhatsApp</a>
+        <a class="btn btn-primary" data-cta="form"
+           href="https://tally.so/r/PLACEHOLDER" target="_blank" rel="noopener">
+          Abrir formulario
+        </a>
       </div>
     </div>
   </section>
